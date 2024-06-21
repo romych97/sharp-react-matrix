@@ -1,0 +1,6 @@
+@matrix_vector_app_HostAddress = http://localhost:5207
+
+GET {{matrix_vector_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

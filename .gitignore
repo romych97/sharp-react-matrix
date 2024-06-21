@@ -1,0 +1,74 @@
+# Ignore the entire node_modules directory for React client
+/client/node_modules
+
+# Ignore build directories for React client
+/client/build
+/client/dist
+
+# Ignore npm debug logs
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# Ignore the .env file for React client
+/client/.env
+
+# Ignore log files for React client
+/client/logs
+/client/*.log
+/client*.log
+
+# Ignore the .DS_Store file (macOS)
+.DS_Store
+
+# Ignore the entire bin and obj directories for C# server
+/server/bin
+/server/obj
+
+# Ignore user-specific files for C# server
+/server/.vs
+/server/*.user
+/server/*.suo
+
+# Ignore Rider project files
+/server/.idea/
+/server/*.sln.iml
+
+# Ignore build results for C# server
+/server/[Pp]ublish/
+/server/[Rr]elease/
+/server/[Dd]ebug/
+/server/[Rr]eleases/
+/server/Packages/
+/server/Artifacts/
+
+# Ignore lock files
+/server/*.lock.json
+
+# Ignore database files for C# server
+/server/*.mdf
+/server/*.ldf
+
+# Ignore Visual Studio Code settings
+/server/.vscode
+
+# Ignore the .env file for C# server
+/server/.env
+
+# Ignore temporary files for C# server
+/server/tmp
+/server/temp
+
+# Ignore logs for C# server
+/server/log
+/server/logs
+/server/*.log
+/server*.log
+
+# Ignore NPM/Yarn lock files
+/server/package-lock.json
+/server/yarn.lock
+
+# Ignore coverage directories for test coverage reports
+/client/coverage
+/server/coverage
